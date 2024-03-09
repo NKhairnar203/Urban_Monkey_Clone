@@ -1,0 +1,65 @@
+.main-container {
+  max-width: 1300px;
+  margin: auto;
+}
+.free-return-box {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background: #000;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.home-banner {
+  width: 700px;
+  height: 450px;
+  background: #000;
+  margin: 40px auto;
+  background-image: url("https://cdn.shopify.com/s/files/1/0661/7423/files/home-banner-playboy-d.jpg?v=1675512633&width=1200");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.after-banner {
+  width: 700px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.after-banner img {
+  width: 70px;
+  margin: auto;
+}
+.after-banner p {
+  font-size: 13px;
+}
+.after-banner h5 {
+  font-size: 14px;
+  margin-top: 16px;
+}
+.after-banner h6 {
+  margin-top: 17px;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 25px;
+}
+
+.after-banner button {
+  width: 200px;
+  height: 40px;
+  background: #000;
+  color: white;
+  margin: 30px auto;
+  border-radius: 6px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+}

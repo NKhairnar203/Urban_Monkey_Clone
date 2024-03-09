@@ -1,0 +1,34 @@
+.category-box {
+  max-width: 1300px;
+  height: 120px;
+  background-color: rgb(219, 217, 217);
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.menu-slide {
+  width: 60px;
+  height: 120px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.menu-slide img {
+  width: 80px;
+  margin: auto;
+}
+
+.menu-slide p {
+  font-size: 12px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 5px;
+}
+/* 
+
+ */

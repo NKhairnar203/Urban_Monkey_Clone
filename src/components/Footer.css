@@ -1,0 +1,103 @@
+.footer-container {
+  width: 100%;
+  height: 600px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+}
+
+.footer-content {
+  width: 100%;
+  height: 450px;
+margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-bottom {
+  width: 100%;
+  height: 130px;
+}
+
+.cool ul li,
+.boring ul li {
+  list-style: none;
+  font-size: 12px;
+  line-height: 34px;
+  font-stretch: condensed;
+}
+.boring ul li:hover {
+  cursor: pointer;
+  color: green;
+}
+.cool ul li:hover {
+  cursor: pointer;
+  color: green;
+}
+.email,
+.time {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.email p {
+  margin-left: 7px;
+  font-size: 12px;
+  text-decoration: underline;
+}
+.time p {
+  margin-left: 7px;
+  font-size: 12px;
+}
+.holiday {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.follow {
+  margin-top: 15px;
+  font-size: 12px;
+  width: 200px;
+}
+.cumunity{
+  width: 300px;
+}
+.sub {
+  font-size: 12px;
+  line-height: 25px;
+}
+
+.search {
+  width: 100%;
+  height: 40px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+.search input {
+  margin-left: 10px;
+  background: none;
+  outline: none;
+  color: white;
+  border: none;
+}
+.search button {
+  height: 38px;
+  width: 110px;
+  border-radius: 5px;
+  margin-right: 1px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.footer-bottom{
+  margin: 20px 50px 0 50px;
+
+}
+.popular {
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 10px;
+  text-decoration: underline;
+  width: 1050px;
+  
+}

@@ -1,0 +1,19 @@
+.slider-container {
+  width: 100%;
+  height: 660px;
+  /* background-color: green; */
+}
+
+.sliders{
+  height: 660px;
+  width: 100%;
+}
+.slide{
+ width: 100%;
+ height: 660px;
+
+
+}
+.slide img{
+  width: 100%;
+}

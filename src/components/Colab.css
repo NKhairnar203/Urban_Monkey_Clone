@@ -1,0 +1,33 @@
+.main-boxes {
+  
+  width: 1200px;
+  height: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin: auto;
+}
+.main-boxes h2 {
+  text-decoration: underline;
+}
+.main-boxes .boxes {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .boxes .image {
+  width: 230px;
+  height: 160px;
+  background: rgb(247, 247, 247);
+  margin-top: 15px;
+  padding-top: 18px;
+}
+.image img {
+  width: 140px;
+  margin: auto;
+}
