@@ -1,0 +1,22 @@
+.error-message {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  margin-top: 5px;
+  height: auto;
+  padding: 30px;
+  width: auto;
+  text-align: center;
+  background: rgb(255, 67, 67);
+ 
+ 
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.error-message  p{
+  font-style: italic;
+}
+
+span{
+  margin: 4px;
+}

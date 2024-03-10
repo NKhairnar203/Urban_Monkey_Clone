@@ -1,6 +1,19 @@
+nav {
+  width: 1200px;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+nav img {
+  width: 410px;
+}
+
 .login-form-container {
-  background-color: #f7f7f7;
-  height: 500px;
+
+  height: auto;
   width: 420px;
   z-index: 1;
   margin: auto;
@@ -12,13 +25,14 @@
   width: 100%;
   height: inherit;
   padding: 20px;
+  padding-bottom: 80px;
   border: 1px solid #ccc;
   background-color: white;
 }
 .login-form h2 {
   font-weight: 400;
 }
-.close-toggle {
+.head {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,11 +43,11 @@
   position: relative;
   width: 100%;
   margin-top: 20px;
-   background-color: white;
+  background-color: white;
 }
 
 .input {
-   background-color: white;
+  background-color: white;
   margin-top: 10px;
   margin-bottom: 10px;
   width: 100%;
@@ -65,4 +79,10 @@
   color: white;
   background: #000;
   border: none;
+}
+
+.privacy {
+  font-size: 10px;
+  width: 300px;
+  margin-top: 40px;
 }
