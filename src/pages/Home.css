@@ -1,6 +1,8 @@
 .main-container {
   max-width: 1300px;
+  /* width: 100%; */
   margin: auto;
+ 
 }
 .free-return-box {
   width: 100%;
@@ -62,4 +64,13 @@
   border: none;
   font-weight: 500;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-container {
+  width: 100%;
+  
+  margin: auto;
+  
+}
 }

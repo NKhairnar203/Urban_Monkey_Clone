@@ -1,9 +1,18 @@
-import React from 'react'
-
+import React from "react";
+import "./Card.css";
+import Navbar from "../components/Navbar";
 const Cart = () => {
   return (
-    <div>Cart</div>
-  )
-}
+    <>
+      <Navbar />
+      <div className="container-card">
+        <div className="heading">
+          <h4>Your Shopping Cart</h4>
+          <div></div>
+        </div>
+      </div>
+    </>
+  );
+};
 
-export default Cart
+export default Cart;

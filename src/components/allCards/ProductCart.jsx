@@ -1,8 +1,9 @@
-import React from "react";
+import  { useState } from "react";
 import "./ProductCart.css";
 import { RiHeartLine } from "@remixicon/react";
 
 const ProductCart = ({ key, image, name, price} ) => {
+  const [cart, setCart] = useState(0)
   return (
     <>
      
@@ -15,7 +16,7 @@ const ProductCart = ({ key, image, name, price} ) => {
         </div>
         <p>{name}</p>
         <p className="price"> {price} </p>
-        <button>ADD TO CART</button>
+        <button value={cart} onClick={()=>setCart(cart+1)}>ADD TO CART</button>
       </div>
       
     </>

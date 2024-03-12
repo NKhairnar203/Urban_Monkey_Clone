@@ -4,11 +4,11 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 import {
   RiArrowDropDownLine,
-  RiCloseLine,
-  RiCrossLine,
   RiHeartLine,
   RiShoppingCartLine,
   RiUser3Line,
+  RiMenuLine,
+  RiSearch2Line,
 } from "@remixicon/react";
 
 const Navbar = () => {
@@ -27,6 +27,7 @@ const [Open, setOpen] = useState(false);
         <div className="navbar-1">
           <div className="logo-side">
             {/* <RiMenuLine className="menu-icon" color="black" /> */}
+            {/* <RiSearch2Line className="search-icon" color="black" /> */}
             <Link to="/">
               {" "}
               <img className="" src={logo} alt="Logo" />
@@ -82,11 +83,16 @@ const [Open, setOpen] = useState(false);
 
           <div className="navbar-icons">
             <Link to="/login" className="login-drop">
-              <RiUser3Line onClick={toggleLogin} color="black" />
-              {Open && <Dropdown /> }
+              <RiUser3Line color="black" />
             </Link>
-            <RiHeartLine color="black" />
-            <RiShoppingCartLine color="black" />
+            <Link>
+              <RiHeartLine color="black"/>
+            
+            </Link>
+            <Link to="/cart">
+              {" "}
+              <RiShoppingCartLine color="black" />
+            </Link>
           </div>
         </div>
       </div>
@@ -133,59 +139,4 @@ export default Navbar;
 
 
 
- const Dropdown = () => {
-
-  const [Close, setClose] = useState(true);
-   const [username, setUsername] = useState("");
-   const [password, setPassword] = useState("");
-const toggleLogin = () => {
-  setClose(!Close);
-};
-   const handleSubmit = (event) => {
-     event.preventDefault();
-     console.log("Username:", username);
-     console.log("Password:", password);
-     // Add your login logic here
-   };
-  return (
-    <>
-      <div className="login-form-container">
-        <form className="login-form" onSubmit={handleSubmit}>
-          <div className="close-toggle">
-            <h2>Login</h2>
-            <RiCloseLine onClick={toggleLogin} />
-            {Close && null}
-          </div>
-          <div>
-            <div className="input-field">
-              <input
-                placeholder="Enter Email"
-                required=""
-                className="input"
-                type="text"
-              />
-            </div>
-            <div className="input-field">
-              <input
-                placeholder="Enter Password"
-                required=""
-                className="input"
-                type="password"
-              />
-            </div>
-            <a href="#" className="forgot">
-              Forgot Your Password?
-            </a>
-          </div>
-          <button>Sign In</button>
-          <div className=" account">
-            <a className="forgot" href="#">
-              New customer? Create your account
-            </a>
-          </div>
-        </form>
-      </div>
-    </>
-  );
-}
 

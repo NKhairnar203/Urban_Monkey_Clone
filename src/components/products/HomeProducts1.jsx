@@ -1,4 +1,4 @@
-import React from "react";
+
 import ProductCart from "../allCards/ProductCart";
 import "./HomeProducts1.css";
 import data from "../db.json";

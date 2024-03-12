@@ -1,11 +1,10 @@
-
-import Home from './pages/Home';
-import Login from './pages/Login';
+import Home from "./pages/Home";
+import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import Cart from "./pages/Cart";
-import AllProducts from "./pages/AllProducts"
+import AllProducts from "./pages/AllProducts";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import AboutUs from './pages/AboutUs';
+import AboutUs from "./pages/AboutUs";
 const App = () => {
   let allRoute = createBrowserRouter([
     {
@@ -30,7 +29,7 @@ const App = () => {
     },
     {
       path: "/about-us",
-      element:<AboutUs/>,
+      element: <AboutUs />,
     },
   ]);
   return (
@@ -38,6 +37,6 @@ const App = () => {
       <RouterProvider router={allRoute} />
     </>
   );
-}
+};
 
-export default App
+export default App;

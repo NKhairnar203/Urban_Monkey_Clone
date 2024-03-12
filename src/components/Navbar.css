@@ -2,8 +2,7 @@
 .container {
   width: auto;
   height: 66px;
-  /* background: #a7a7a7; */
-  /* margin: 0 auto; */
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,6 +67,7 @@
 }
 .dropdown-menu li {
   margin-left: 16px;
+  list-style: none;
 }
 .divider {
   position: relative;
@@ -149,4 +149,43 @@
   margin-left: 20px;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container {
+    height: 100%;
+    width: 600px;
+  }
 
+  .search-category {
+    display: none;
+  }
+
+  .navbar-1 {
+  width: 400px;
+
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+
+  .logo-side {
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  .logo-side img {
+    width: 220px;
+  }
+
+  .search-box {
+    display: none;
+  }
+
+  .navbar-icons {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
